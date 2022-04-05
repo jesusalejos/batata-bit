@@ -93,12 +93,13 @@ header img {
   margin-top: 25px;
   font-size: 1.4rem;
   font-weight: 500;
-  line-height: 1.8rem;
+  line-height: 1.8rem; 
   color: var(--soft-orange);
 }
 .header--title-container .header--button {
   position: absolute;
-  left: calc(50% - 118px);
+  left: calc(50% - 114.5px);
+  /* For the use of calc here is 50% (center) - the width/2 */
   top: 270px;
   display: block;
   margin-top: 35px;
