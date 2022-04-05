@@ -41,7 +41,32 @@ header {
     var(--black) 16.69%,
     var(--bitcoin-orange) 100%
   );
+  /*Adding animation to the background, the key is the background-size */
+  /* I think it's not necessary the next prefixes but I put here like reference like use them (the sintax) */
+  background-size: 400% 400%;
+  animation: bgAnimateBitcoin 20s ease infinite;
+  -webkit-animation: bgAnimateBitcoin 20s ease infinite;
+  -moz-animation: bgAnimateBitcoin 20s ease infinite;
+
 }
+
+@keyframes bgAnimateBitcoin {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+@-webkit-keyframes bgAnimateBitcoin {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes bgAnimateBitcoin {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
 header img {
   width: 151px;
   height: 24px;
