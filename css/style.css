@@ -264,7 +264,7 @@ main {
   background-repeat: no-repeat;
 }
 .currency-table--date {
-  width: 190px;
+  width: 225px;
   height: 31px;
   margin: 0 auto;
   margin-top: 15px;
@@ -273,7 +273,7 @@ main {
   border-radius: 8px;
 }
 .commissions-table--date {
-  width: 190px;
+  width: 225px;
   height: 31px;
   margin: 0 auto;
   margin-top: 15px;
