@@ -225,10 +225,10 @@ main {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.9rem;
-  color: var(--grey);
+  color: var(--black);
 
   /* border-bottom: 1px solid #faf8f7; */
-  background-color: var(--just-white);
+  background-color: var(--grey);
 }
 .currency-table--container .table__top-left,
 .commissions-table--container .table__top-left {
@@ -347,49 +347,32 @@ main {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
   border-radius: 4px;
 }
-.product-detail--card .clock {
+.product-detail--card .icon-card {
   display: inline-block;
   width: 20px;
   height: 20px;
   margin: 0 auto;
   margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.clock{
   background-image: url("../assets/icons/clock.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
-.product-detail--card .eye {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin: 0 auto;
-  margin-bottom: 10px;
+.eye {
   background-image: url("../assets/icons/eye.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+
 }
-.product-detail--card .dollar {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin: 0 auto;
-  margin-bottom: 10px;
+.dollar {
   background-image: url("../assets/icons/dollar-sign.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
-.product-detail--card .check {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin: 0 auto;
-  margin-bottom: 10px;
+
+.check {
+
   background-image: url("../assets/icons/check-circle.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+
 }
 .product--card_title {
   margin-bottom: 15px;
